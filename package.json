@@ -6,18 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catwilo/API_Rest.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catwilo/API_Rest/issues"
+  },
+  "homepage": "https://github.com/catwilo/API_Rest#readme",
   "dependencies": {
-    "@babel/cli": "^7.18.6",
-    "@babel/core": "^7.18.6",
-    "@babel/node": "^7.18.6",
-    "@babel/preset-env": "^7.18.6",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.18",
     "promise-mysql": "^5.2.0"
   }
 }
