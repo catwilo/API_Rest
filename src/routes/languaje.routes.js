@@ -8,5 +8,6 @@ import {
 const router = Router();
 
 router.get("/", languageController.getLanguages);
+router.post("/", languageController.addLanguage);
 
 export default router;
